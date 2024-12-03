@@ -1,0 +1,8 @@
+gcloud beta container clusters create $CLUSTERNAME \
+  --enable-autoupgrade \
+  --zone $ZONE \
+  --scopes cloud-platform \
+  --logging=SYSTEM,WORKLOAD \
+  --monitoring=SYSTEM \
+  --machine-type n1-standard-2 \
+  --num-nodes 2
