@@ -6,3 +6,7 @@ gcloud beta container clusters create $CLUSTERNAME \
   --monitoring=SYSTEM \
   --machine-type n1-standard-2 \
   --num-nodes 2
+
+
+https://towardsdatascience.com/how-to-create-and-deploy-a-kubeflow-machine-learning-pipeline-part-1-efea7a4b650f       --- Create the cluster
+https://github.com/kubeflow/pipelines?tab=readme-ov-file                                                              --- github
